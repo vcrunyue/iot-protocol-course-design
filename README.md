@@ -26,14 +26,6 @@ g++ -std=c++11 -Wall -o /tmp/test_iot_protocol_plan_check test_iot_protocol.cpp
 
 网页版终端使用原生 HTML、CSS 和 JavaScript 实现，不需要后端或第三方依赖。
 
-本地预览：
-
-```bash
-python3 -m http.server 5173
-```
-
-然后访问 `http://localhost:5173/web/`。
-
 网页功能对应控制台菜单：
 
 - `1. 发送数据`：输入文本，选择 XOR 或凯撒加密，显示加密载荷、发送帧、接收帧和解密结果。
