@@ -1,0 +1,25 @@
+.DS_Store
+~$*
+
+# Private/local documents
+*.doc
+*.docx
+AGENTS.md
+DESIGN.md
+任务书.*
+
+# Local C++ build outputs
+iot_protocol
+iot_protocol.exe
+test_iot_protocol
+test_iot_protocol.exe
+*.o
+*.out
+
+# Local editor and deployment state
+.vercel/
+.vscode/
+
+# Logs and caches
+*.log
+.cache/

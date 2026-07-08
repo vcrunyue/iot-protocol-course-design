@@ -1,0 +1,10 @@
+{
+  "name": "iot-protocol-course-design",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "test:web": "node web/app.test.mjs",
+    "test:cpp": "g++ -std=c++11 -Wall -o /tmp/test_iot_protocol_plan_check test_iot_protocol.cpp && /tmp/test_iot_protocol_plan_check"
+  }
+}
